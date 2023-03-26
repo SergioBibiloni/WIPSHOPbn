@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00C8A4;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.textoheadder{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8cm;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botonAnte{
+    background-color: transparent;
+    border: solid 1px black;
+    float: left;
+}
+
+
+.oferta{
+    background-color: #01725d;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.categoria1 {
+    filter: brightness(50%);
+    margin: auto;
+    text-align: center;
+    height: 170px;
+    background-image:  url("../img/ropaimgs/cat_sudaderas.webp") ;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.categoria2 {
+    filter: brightness(50%);
+    text-align: center;
+    height: 160px;
+    background-image:  url("../img/ropaimgs/cat_camisetas106.webp") ;
+    background-color: #fff;
+    padding: 10px;
+}
+
+
+
+.botonofertas{
+    background-color: transparent;
+    border: none    ;
+}
+
+.botoncategorias1{
+
+    margin-top: 50px;
+    background-color: transparent;
+    border: solid 1px #00C8A4;
+}
+.botoncategorias2{
+    margin-top: 50px;
+    background-color: transparent;
+    border: solid 1px #00C8A4;
+}
+.botoncategorias3{
+    margin-top: 60px;
+    background-color: transparent;
+    border: solid 1px #00C8A4;
+}
+
+
+
+
+.textooferta{
+    color:#FFD600;
+}
+
+.textocatego{
+    color:#FFD600;
+    font-size: 0.5cm;
+}
+
+.separador{
+    max-width:auto;
+    padding: 0px;
+    margin: 0px;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+
+footer {
+    background-color: #00C8A4;
+    font-size: 0.6cm;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.instagramtexto{
+    text-decoration: none;
+    color: white;
+}
+
+
+.wippshoppText{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+
+    .categoria1{
+        background-repeat: no-repeat;
+        width: 340px;
+    }
+    .categoria2 {
+        background-repeat: no-repeat;
+        height: 170px;
+        width: 340px;
+    }
+
+    .bloqueforms{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .categoria1{
+        background-repeat: no-repeat;
+        width: 370px;
+    }
+    .categoria2 {
+        background-repeat: no-repeat;
+        height: 170px;
+        width: 370px;
+
+    }
+
+    .bloqueforms{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+/*FOOTER RESPONSIVE*/
+
+
+@media (min-width: 768px) {
+    .bloq12no {
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        
+    }
+
+    .bloque1 {
+        order: 3;
+        padding-left: 50px;
+
+    }
+
+    .bloque2 {
+        order: 1;
+
+    }
+
+    .bloqueno {
+        order: 2;
+        width: 200px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bloque2{
+        display: none;
+
+    }
+    .bloqueforms{
+        background-color: black;
+        display: block;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .wippshoppText {
+        padding: none;
+    }
+
+}

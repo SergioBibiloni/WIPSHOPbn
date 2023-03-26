@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00C8A4;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.textoheadder{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8cm;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.bloquedat{
+    background-color: black;
+    text-align: center;
+}
+.textodatos{
+    padding: 0%;
+    margin:0%;
+}
+
+.separador{
+    max-width:auto;
+    padding: 0px;
+    margin: 0px;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+
+footer {
+    background-color: #00C8A4;
+    font-size: 0.6cm;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.instagramtexto{
+    text-decoration: none;
+    color: white;
+}
+
+
+.wippshoppText{
+    text-decoration: none;
+    color: white;
+}

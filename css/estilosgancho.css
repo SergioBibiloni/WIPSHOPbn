@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #000000;
+}
+
+header {
+    background-color: #00C8A4;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.textoheadder {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+.oferta {
+    background-color: #01725d;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.categoria1 {
+    filter: brightness(50%);
+    margin: auto;
+    text-align: center;
+    height: 150px;
+    background-image: url("../img/categoria_accesorios.webp");
+    padding: 10px;
+}
+
+.categoria2 {
+    filter: brightness(50%);
+    text-align: center;
+    height: 160px;
+    background-image: url("../img/categoria_ropa.webp");
+
+    padding: 10px;
+}
+
+.botonAnte{
+    background-color: transparent;
+    border: solid 1px black;
+    float: left;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*IMGS*/
+
+.child1 {
+    width: 200px;
+    height: 200px;
+
+    background-image:  url("../img/accesoriosimgs/ganchos/gancho1.webp") ;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.child3 {
+    width: 200px;
+    height: 200px;
+
+    background-image:  url("../img/accesoriosimgs/ganchos/agncho2.webp") ;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.child5 {
+    width: 200px;
+    height: 200px;
+
+    background-image:  url("../img/accesoriosimgs/ganchos/gancho3.webp") ;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/*TEXTO*/
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.separador {
+    max-width: auto;
+    padding: 0px;
+    margin: 0px;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+
+footer {
+    background-color: #00C8A4;
+    font-size: 0.6cm;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.instagramtexto {
+    text-decoration: none;
+    color: white;
+}
+
+
+.wippshoppText {
+    text-decoration: none;
+    color: white;
+}
+
+/*FOOTER RESPONSIVE*/
+
+
+@media (min-width: 768px) {
+    .bloq12no {
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        
+    }
+
+    .bloque1 {
+        order: 3;
+        padding-left: 50px;
+
+    }
+
+    .bloque2 {
+        order: 1;
+
+    }
+
+    .bloqueno {
+        order: 2;
+        width: 200px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bloque2{
+        display: none;
+
+    }
+    .bloqueforms{
+        background-color: black;
+        display: block;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .wippshoppText {
+        padding: none;
+    }
+
+}

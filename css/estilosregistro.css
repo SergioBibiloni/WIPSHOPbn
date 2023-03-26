@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.logoregistro{
+    width: 200px;
+}
+
+main{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    background-color: #00C8A4;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.textoheadder{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8cm;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textoprincipal{
+    margin: auto;
+}
+
+.volverinic{
+    position: absolute;
+}
+
+
+
+
+.separador{
+    max-width:auto;
+    padding: 0px;
+    margin: 0px;
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+
+footer {
+    background-color: #00C8A4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.instagramtexto{
+    text-decoration: none;
+    color: white;
+}
+
+
+.wippshoppText{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.form1 {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    margin: auto;
+    padding: 15px;
+}
+
+form div {
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    float: left;
+    padding-left: 25px;
+}
+
+input :hover{
+    border: black;
+}
+
+.bloqueinput{
+    padding: 10px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    
+}
+
+.boton{
+    margin-top: 25px;
+    width: 200px;
+}
+
+.boton2{
+    background-color: transparent;
+    width: 150px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin: auto;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: black 1px solid;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) {
+    input[type="submit"] {
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        margin: auto;
+        justify-self: center;
+        width: 25%;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: black 1px solid;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+
+    .boton{
+        margin-top: 25px;
+        width: 200px;
+    }
+
+    header{
+        background-color: white;
+    }
+
+    .bloqueincioses{
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        margin-bottom: 40px;
+    }
+    
+.bloqueinput{
+    padding: 10px;
+    margin: auto;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+}
+
+/*FOOTER RESPONSIVE*/
+
+
+@media (min-width: 768px) {
+    .bloq12no {
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        
+    }
+
+    .bloque1 {
+        order: 3;
+        padding-left: 50px;
+
+    }
+
+    .bloque2 {
+        order: 1;
+
+    }
+
+    .bloqueno {
+        order: 2;
+        width: 200px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bloque2{
+        display: none;
+
+    }
+
+}
+
+
+
+@media (min-width: 768px) {
+    .wippshoppText {
+        padding: none;
+    }
+
+}
+
+
+/*POLITICAS DE PRIVACIDAD RESPONSIVE */
+@media (min-width: 768px) {
+    .bloque456 {
+        justify-content: center;
+        justify-content: space-around;
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+
+    .bloque4 {
+        order: 1;
+    }
+
+    .bloque5 {
+        order: 2;
+        margin-right: 30px;
+    }
+
+    .bloque6 {
+        order: 3;
+    }
+}
